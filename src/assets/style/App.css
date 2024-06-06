@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../statics/space.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.775);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 600px;
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+svg.svg-inline--fa.fa-face-laugh-wink, svg.svg-inline--fa.fa-hands-clapping {
+  color: #ffc136;
+  font-size: 28px;
+}
+
+button {
+  padding: 10px 50px;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #477371;
+  border: none;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
