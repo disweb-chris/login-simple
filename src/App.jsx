@@ -27,7 +27,7 @@ function App() {
     } else {
       setMessage(
         <span className='error'>
-          Contraseña incorrecta, intente de nuevo <FontAwesomeIcon icon={faFaceLaughWink} />
+           Contraseña incorrecta, intente de nuevo <FontAwesomeIcon icon={faFaceLaughWink} />
         </span>
       );
     }

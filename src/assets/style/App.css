@@ -12,11 +12,11 @@ body {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.775);
+  background-color: rgba(0, 0, 0, 0.54);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 600px;
+  width: 650px;
   color: white;
 }
 
@@ -49,6 +49,11 @@ button:hover {
 p {
   margin-top: 20px;
   font-size: 1.2em;
+}
+
+span.error, span.aprobado {
+  padding-left: 8px;
+  font-size: 31px;
 }
 
 .success {
